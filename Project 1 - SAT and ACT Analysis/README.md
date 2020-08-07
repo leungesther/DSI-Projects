@@ -1,4 +1,4 @@
-# SAT and ACT Analysis
+# DSI Project 1: SAT and ACT Analysis
 
 
 ### Problem Statement
@@ -30,8 +30,11 @@ Four datasets were provided for the purpose of this project:
 
 The following data cleaning was done before Exploratory Data Analysis:
 1. The 2017 datasets were imported and checked for errors against data sources available online:
+
 For SAT: https://blog.collegevine.com/here-are-the-average-sat-scores-by-state/
+
 For ACT: https://www.act.org/content/dam/act/unsecured/documents/cccr2017/ACT_2017-Average_Scores_by_State.pdf
+
 2. Data errors identified were fixed accordingly.
 3. SAT 2017 and ACT 2017 were merged into a Combined 2017 dataset.
 4. The 2018 datasets were imported and and aligned to similar format as the 2017 data. 
@@ -91,6 +94,7 @@ The application of Central Limit Theorem was discussed based on the exploratory 
 Further secondary research were conducted to explore any reason driving SAT participation rate year-on-year change in 2018.
 
 Source: 
+
 https://www.edweek.org/ew/articles/2018/10/31/sat-scores-rise-as-number-of-test-takers.html
 https://www.chicagotribune.com/news/ct-illinois-chooses-sat-met-20160211-story.html
 https://co.chalkbeat.org/2015/12/23/21092477/goodbye-act-hello-sat-a-significant-change-for-colorado-high-schoolers
@@ -112,6 +116,8 @@ According to report from *Education Week*, in 2017-2018, 10 states (**Colorado**
 
 Examples of such states include Iowa, Kansas, and South Dakota.
 
-Source: https://www.edweek.org/ew/section/multimedia/states-require-students-take-sat-or-act.html
+Source: 
+
+https://www.edweek.org/ew/section/multimedia/states-require-students-take-sat-or-act.html
 
 
