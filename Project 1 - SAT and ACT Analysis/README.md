@@ -31,9 +31,9 @@ Four datasets were provided for the purpose of this project:
 The following data cleaning was done before Exploratory Data Analysis:
 1. The 2017 datasets were imported and checked for errors against data sources available online:
 
-⋅⋅⋅For SAT: https://blog.collegevine.com/here-are-the-average-sat-scores-by-state/
+   For SAT: https://blog.collegevine.com/here-are-the-average-sat-scores-by-state/
 
-⋅⋅⋅For ACT: https://www.act.org/content/dam/act/unsecured/documents/cccr2017/ACT_2017-Average_Scores_by_State.pdf
+   For ACT: https://www.act.org/content/dam/act/unsecured/documents/cccr2017/ACT_2017-Average_Scores_by_State.pdf
 
 2. Data errors identified were fixed accordingly.
 3. SAT 2017 and ACT 2017 were merged into a Combined 2017 dataset.
