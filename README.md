@@ -1,8 +1,8 @@
-# DSI Projects
+# General Assembly Data Science Immersive Projects
 
 This repository is a collection of projects done as my course work for **General Assembly Data Science Immersive**:
 
-**Project 1: SAT & ACT Analysis**
+### Project 1: SAT & ACT Analysis
 
 This project covers:
 1. Basic statistics

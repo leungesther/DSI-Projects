@@ -31,9 +31,9 @@ Four datasets were provided for the purpose of this project:
 The following data cleaning was done before Exploratory Data Analysis:
 1. The 2017 datasets were imported and checked for errors against data sources available online:
 
-For SAT: https://blog.collegevine.com/here-are-the-average-sat-scores-by-state/
+⋅⋅⋅For SAT: https://blog.collegevine.com/here-are-the-average-sat-scores-by-state/
 
-For ACT: https://www.act.org/content/dam/act/unsecured/documents/cccr2017/ACT_2017-Average_Scores_by_State.pdf
+⋅⋅⋅For ACT: https://www.act.org/content/dam/act/unsecured/documents/cccr2017/ACT_2017-Average_Scores_by_State.pdf
 
 2. Data errors identified were fixed accordingly.
 3. SAT 2017 and ACT 2017 were merged into a Combined 2017 dataset.
@@ -95,9 +95,10 @@ Further secondary research were conducted to explore any reason driving SAT part
 
 Source: 
 
-https://www.edweek.org/ew/articles/2018/10/31/sat-scores-rise-as-number-of-test-takers.html
-https://www.chicagotribune.com/news/ct-illinois-chooses-sat-met-20160211-story.html
-https://co.chalkbeat.org/2015/12/23/21092477/goodbye-act-hello-sat-a-significant-change-for-colorado-high-schoolers
+1. https://www.edweek.org/ew/articles/2018/10/31/sat-scores-rise-as-number-of-test-takers.html
+2. https://www.chicagotribune.com/news/ct-illinois-chooses-sat-met-20160211-story.html
+3. https://co.chalkbeat.org/2015/12/23/21092477/goodbye-act-hello-sat-a-significant-change-for-colorado-high-schoolers
+4. https://www.edweek.org/ew/section/multimedia/states-require-students-take-sat-or-act.html
 
 
 ### Conclusion & Recommendations
@@ -114,10 +115,9 @@ According to report from *Education Week*, in 2017-2018, 10 states (**Colorado**
 
 **State contracts and state funded test are key drivers to SAT participation**. It is recommended that the College Board **focuses on developing partnership with states that do not have any prevailing contract awarded to either the College Board or ACT, and currently have low SAT participation in 2018.**
 
-Examples of such states include Iowa, Kansas, and South Dakota.
+Examples of such states include **Iowa, Kansas, and South Dakota**.
 
-Source: 
 
-https://www.edweek.org/ew/section/multimedia/states-require-students-take-sat-or-act.html
+
 
 
