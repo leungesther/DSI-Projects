@@ -2,11 +2,13 @@
 
 
 ### Problem Statement
+------
 
 In this project, the main focus is to analyse a dataset comprising of participation rates and mean test scores by states for the year 2017 and 2018, with the aim to **identify ways to improve SAT participation rate for the College Board**.
 
 
 ### Executive Summary
+------
 
 From the data analysis and additinal secondary research, **state contracts and state funded test are key drivers to SAT participation**. 
 
@@ -16,6 +18,7 @@ It is recommended that the College Board focuses on developing partnership with 
 
 
 ### Project Approach
+------
 
 #### 1. Data
 
@@ -36,10 +39,9 @@ The following data cleaning was done before Exploratory Data Analysis:
    For ACT: https://www.act.org/content/dam/act/unsecured/documents/cccr2017/ACT_2017-Average_Scores_by_State.pdf
 
 2. Data errors identified were fixed accordingly.
-3. SAT 2017 and ACT 2017 were merged into a Combined 2017 dataset.
-4. The 2018 datasets were imported and and aligned to similar format as the 2017 data. 
-5. SAT 2018 and ACT 2018 were merged into a Combined 2018 dataset.
-6. The Combined dataset for each year is then merged into a Final dataset for further Exploratory Data Analysis.
+3. The 2018 datasets were imported and and aligned to similar format as the 2017 data. 
+4. The 4 datasets were merged into a final dataset for Exploratory Data Analysis and Visualisation.
+
 
 **Data Dictionary**
 
@@ -102,6 +104,7 @@ Source:
 
 
 ### Conclusion & Recommendations
+------
 
 Based on the analysis conducted, sharp increase in SAT participation rate is seen year-on-year in 2018 for **Colorado** and **Illinois**, along with decline in ACT participation, indicates conversion from ACT to SAT. 
 
