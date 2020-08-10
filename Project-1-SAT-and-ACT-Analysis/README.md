@@ -4,7 +4,7 @@
 ### Problem Statement
 ------
 
-In this project, the main focus is to analyse a dataset comprising of participation rates and mean test scores by states for the year 2017 and 2018, with the aim to **identify ways to improve SAT participation rate for the College Board**.
+In this project, the main focus is to analyse a dataset comprising of participation rates and mean test scores by states for SAT and ACT in the year 2017 and 2018, with the aim to **identify ways to improve SAT participation rate for the College Board**.
 
 
 ### Executive Summary
