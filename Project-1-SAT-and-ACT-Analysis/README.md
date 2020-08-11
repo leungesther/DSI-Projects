@@ -14,8 +14,9 @@ From the data analysis and additinal secondary research, **state contracts and s
 
 Among states that showed strong increase in SAT participate in 2018, such as Illinois, Colorado, and Rhode Island, the uptake in SAT participation rate is linked to College Board winning state contracts, in which high school students are offered state-funded SAT test.
 
-It is recommended that the College Board focuses on developing partnership with states that do not have any prevailing contract awarded to either the College Board or ACT, and currently have low SAT participation in 2018. Examples of such states include Iowa, Kansas, and South Dakota.
+It is recommended that the College Board focuses on developing partnership with states that do not have any prevailing contract awarded to either the College Board or ACT, and currently have low SAT participation in 2018. Examples of such states include Iowa, Kansas, and South Dakota. Priority can be placed on Iowa, which has a higher population.
 
+In the longer term, the College Board can also explore states that already mandate state-wide ACT participation and lobby the education boards to switch to the SAT when the current state contract is expiring. These states are more likely to have the required infrastructure and resources to support state-wide test arrangement. Examples of such states include Montana, Utah and Wyoming.
 
 ### Project Approach
 ------
@@ -106,21 +107,17 @@ Source:
 ### Conclusion & Recommendations
 ------
 
-Based on the analysis conducted, sharp increase in SAT participation rate is seen year-on-year in 2018 for **Colorado** and **Illinois**, along with decline in ACT participation, indicates conversion from ACT to SAT. 
-
-**Rhode Island** also saw a notable increase in SAT participation year-on-year.
+Based on the analysis conducted, sharp increase in SAT participation rate is seen year-on-year in 2018 for **Colorado** and **Illinois**, along with decline in ACT participation, indicates conversion from ACT to SAT. **Rhode Island** also saw a notable increase in SAT participation year-on-year.
 
 Understanding the driver behind this uptake in SAT participation may present opportunity to map the same strategy to other states to boost SAT participation rate. 
 
 Further secondary research shows that **state contracts and state funded test** are key driver of SAT participation rate in Colorado, Illinois and Rhode Island in 2018.
 
-According to report from *Education Week*, in 2017-2018, 10 states (**Colorado**, Connecticut, Delaware, Idaho, **Illinois**, Maine, Michigan, New Hampshire, **Rhode Island**, and West Virginia) and the District of Columbia **covered the cost of the SAT for all their public school students**. Three years prior to that, only three states and the District of Columbia did so.
+Among states that showed strong increase in SAT participate in 2018, such as Illinois, Colorado, and Rhode Island, the uptake in SAT participation rate is linked to College Board winning state contracts, in which high school students are offered state-funded SAT test.
 
-**State contracts and state funded test are key drivers to SAT participation**. It is recommended that the College Board **focuses on developing partnership with states that do not have any prevailing contract awarded to either the College Board or ACT, and currently have low SAT participation in 2018.**
+It is recommended that the College Board focuses on developing partnership with states that do not have any prevailing contract awarded to either the College Board or ACT, and currently have low SAT participation in 2018. Examples of such states include Iowa, Kansas, and South Dakota. Priority can be placed on Iowa, which has a higher population.
 
-Examples of such states include **Iowa, Kansas, and South Dakota**.
-
-
+In the longer term, the College Board can also explore states that already mandate state-wide ACT participation and lobby the education boards to switch to the SAT when the current state contract is expiring. These states are more likely to have the required infrastructure and resources to support state-wide test arrangement. Examples of such states include Montana, Utah and Wyoming.
 
 
 
