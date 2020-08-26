@@ -77,10 +77,8 @@ Based on initial data exploration, it is noted that the datasets contain housing
 
 As part of **Data Cleaning**, the following were performed:
 1. Reviewing data types and converting to correct data types (e.g. MS SubClass and Mo Sold).
-2. Checking for missing values.
-   * Missing values were imputed. Continuous variables were mostly imputed with median, and discrete variables with mode. Some variables were imputed with appropriate values such as 'NA' or 0 if the missing values correspond to the absent of features (e.g. Garage, Basement).
+2. Checking for missing values and imputing missing values. Continuous variables were mostly imputed with median, and discrete variables with mode. Some variables were imputed with appropriate values such as 'NA' or 0 if the missing values correspond to the absent of features (e.g. Garage, Basement).
 3. Ordinal variables to mapped to corresponding numeric scale.
-4. 3 outliers corresponding to extreme values were removed from the train dataset.
 
 As for **Exploratory Data Analysis**, the following were performed:
 **Part A: Target Variable (SalePrice)**
@@ -119,12 +117,12 @@ Among these, One Hot Encoding was applied to nominal variables. The resulting tr
 
 1. Feature set X and target variable y was set up
 2. Train/ test split was applied.
-3. Noting that the target variable and features were mostly not normally distributed, Power Transform was applied to scale the variables.
+3. Standard Scaler was applied to scale the variables.
 
 
 #### 5. Modelling
 
-With these initial set of 128 features, the following models were created:
+With these initial set of 129 features, the following models were created:
 1. Linear Regression
 2. Lasso Regression
 3. Ridge Regression
@@ -136,13 +134,13 @@ Given the large number of features, Lasso Regression was helpful in feature sele
 
 Based on the initial Lasso Regression done, 30 features with the highest coefficients (in absolute value) were picked to go into the final model.
 
-Lasso Regression and Ridge Regression were used and compared. Both perform similarly. 
+Lasso Regression and Ridge Regression were used and compared. Lasso performed marginally better. 
 
 #### 7. Generate Predictions on Test Set
 
-The Lasso Regression with 30 features was then fitted to the whole training dataset  to generate the predictions on the test dataset. Given that Power Transform was applied for scaling, predictions were inversed transformed to obtain the final predictions for submission.
+The Lasso Regression with 30 features was then fitted to the whole training dataset to generate the predictions on the test dataset. Given that Power Transform was applied for scaling, predictions were inversed transformed to obtain the final predictions for submission.
 
-The public score on Kaggle is 29585.41211.
+The public score on Kaggle is 31661.69157.
 
 
 ### Conclusion
