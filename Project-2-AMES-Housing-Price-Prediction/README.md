@@ -6,7 +6,7 @@
 
 The focus of this project is to create a **regression model based on the Ames Housing dataset** to **predict the price of a house at sale, given a set of characteristics of the house**.
 
-Such a model will be useful for property agents or property owners to predict the sales price of a house they wish to sell, and for a potential buyer to estimate the 'fair' price of a house they are interested in.
+Such a model will be useful for people who would like to 'flip' their house (i.e. buy a house at low price, renovate to improve certain features of the house, then sell the house for a gain).
 
 In this project, various models will be developed using regression techniques such as Linear Regression, Lasso Regression, and Ridge Regression.
 
@@ -33,11 +33,9 @@ The top 10 features are:
 
 ^: negative correlation with SalePrice
 
-The **total area** of the house is the biggest predictor of Sale Price. In this model, **every unity increase in total area square feet will increase Sale Price by 30860 dollars**.
+The **total area** of the house is the biggest predictor of Sale Price. In this model, **every unity increase in total area square feet will increase Sale Price by 30860 dollars**. 
 
-It is also not surprising that better **overall quality** and **newer houses** (as indicated by MS Subclass 020).
-
-The **exterior** is also important both in terms of **masonry veneer area** and **quality of the exterior**.
+It is also not surprising that better **overall quality** and **newer houses** (as indicated by MS Subclass 020).The **exterior** is also important both in terms of **masonry veneer area** and **quality of the exterior**.
 
 Interestingly, **kitchen quality** and **total number of bathroom** are also strong predictors, which matches what is shown on TV shows such as 'Property Brothers' and 'House Hunter', in which the ladies care a lot about kitchen, and Americans do not seem to like sharing bathrooms.
 
@@ -45,7 +43,7 @@ Interestingly, **kitchen quality** and **total number of bathroom** are also str
 
 Lastly, **neighborhood** is also key. As the old saying goes, when it comes to housing, it's all 'location, location, 'location'. Neighborhoods such as Northridge Heights and Stone Brook positively impact Sale Price.
 
-Property agents and potential sellers can look out for these features to gauge SalePrice, while potential buyers can also look at these features to gauge a fair price to decide on their offers.
+Flippers can consider increasing total area by building another storey, if the corresponding increase in Sale Price can offset the cost. Other actionable areas include renovation to improve overall quality, kitchen quality and increase the number of bathroom. Unfortunately, it is impossible to change the neighborhood, so the flippers should first ensure that the house they purchase to flip is in a good location like Northridge Heights and Stone Brook.
 
 
 ### Project Approach
@@ -143,7 +141,7 @@ The Lasso Regression with 30 features was then fitted to the whole training data
 The public score on Kaggle is 31661.69157.
 
 
-### Conclusion
+### Conclusion & Recommendations
 ---
 
 Based on the final model built with 30 features, it is noted that some features have bigger impact on the SalePrice prediction.
@@ -164,11 +162,9 @@ The top 10 features are:
 ^: negative correlation with SalePrice
 
 
-The **total area** of the house is the biggest predictor of Sale Price. In this model, **every unity increase in total area square feet will increase Sale Price by 30860 dollars**.
+The **total area** of the house is the biggest predictor of Sale Price. In this model, **every unity increase in total area square feet will increase Sale Price by 30860 dollars**. 
 
-It is also not surprising that better **overall quality** and **newer houses** (as indicated by MS Subclass 020).
-
-The **exterior** is also important both in terms of **masonry veneer area** and **quality of the exterior**.
+It is also not surprising that better **overall quality** and **newer houses** (as indicated by MS Subclass 020).The **exterior** is also important both in terms of **masonry veneer area** and **quality of the exterior**.
 
 Interestingly, **kitchen quality** and **total number of bathroom** are also strong predictors, which matches what is shown on TV shows such as 'Property Brothers' and 'House Hunter', in which the ladies care a lot about kitchen, and Americans do not seem to like sharing bathrooms.
 
@@ -176,4 +172,4 @@ Interestingly, **kitchen quality** and **total number of bathroom** are also str
 
 Lastly, **neighborhood** is also key. As the old saying goes, when it comes to housing, it's all 'location, location, 'location'. Neighborhoods such as Northridge Heights and Stone Brook positively impact Sale Price.
 
-Property agents and potential sellers can look out for these features to gauge SalePrice, while potential buyers can also look at these features to gauge a fair price to decide on their offers.
+Flippers can consider increasing total area by building another storey, if the corresponding increase in Sale Price can offset the cost. Other actionable areas include renovation to improve overall quality, kitchen quality and increase the number of bathroom. Unfortunately, it is impossible to change the neighborhood, so the flippers should first ensure that the house they purchase to flip is in a good location like Northridge Heights and Stone Brook.
