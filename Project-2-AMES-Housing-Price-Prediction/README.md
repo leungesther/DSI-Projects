@@ -33,9 +33,11 @@ The top 10 features are:
 
 ^: negative correlation with SalePrice
 
-The **total area** of the house is the biggest predictor of Sale Price. In this model, **every unity increase in total area square feet will increase Sale Price by 30860 dollars**. 
+The **total area** of the house is the biggest predictor of Sale Price. In this model, **every unit increase in total built area square feet will increase Sale Price by USD 30,860**. 
 
-It is also not surprising that better **overall quality** and **newer houses** (as indicated by MS Subclass 020).The **exterior** is also important both in terms of **masonry veneer area** and **quality of the exterior**.
+It is also not surprising that better **overall quality** and **newer houses** (as indicated by MS Subclass 020). **Improving the overall quality score by 1 point will increase the Sale Price by USD 14,884**. 
+
+The **exterior** is also important both in terms of **masonry veneer area** and **quality of the exterior**.
 
 Interestingly, **kitchen quality** and **total number of bathroom** are also strong predictors, which matches what is shown on TV shows such as 'Property Brothers' and 'House Hunter', in which the ladies care a lot about kitchen, and Americans do not seem to like sharing bathrooms.
 
@@ -43,7 +45,9 @@ Interestingly, **kitchen quality** and **total number of bathroom** are also str
 
 Lastly, **neighborhood** is also key. As the old saying goes, when it comes to housing, it's all 'location, location, 'location'. Neighborhoods such as Northridge Heights and Stone Brook positively impact Sale Price.
 
-Flippers can consider increasing total area by building another storey, if the corresponding increase in Sale Price can offset the cost. Other actionable areas include renovation to improve overall quality, kitchen quality and increase the number of bathroom. Unfortunately, it is impossible to change the neighborhood, so the flippers should first ensure that the house they purchase to flip is in a good location like Northridge Heights and Stone Brook.
+House flippers can consider increasing total area by building another storey, if the corresponding increase in Sale Price can offset the cost. 
+
+Other actionable areas include renovation to improve overall quality, kitchen quality and increase the number of bathroom. Unfortunately, it is impossible to change the neighborhood, so the flippers should first ensure that the house they purchase to flip is in a good location like Northridge Heights and Stone Brook.
 
 
 ### Project Approach
@@ -162,9 +166,11 @@ The top 10 features are:
 ^: negative correlation with SalePrice
 
 
-The **total area** of the house is the biggest predictor of Sale Price. In this model, **every unity increase in total area square feet will increase Sale Price by 30860 dollars**. 
+The **total area** of the house is the biggest predictor of Sale Price. In this model, **every unit increase in total built area square feet will increase Sale Price by USD 30,860**. 
 
-It is also not surprising that better **overall quality** and **newer houses** (as indicated by MS Subclass 020).The **exterior** is also important both in terms of **masonry veneer area** and **quality of the exterior**.
+It is also not surprising that better **overall quality** and **newer houses** (as indicated by MS Subclass 020). **Improving the overall quality score by 1 point will increase the Sale Price by USD 14,884**. 
+
+The **exterior** is also important both in terms of **masonry veneer area** and **quality of the exterior**.
 
 Interestingly, **kitchen quality** and **total number of bathroom** are also strong predictors, which matches what is shown on TV shows such as 'Property Brothers' and 'House Hunter', in which the ladies care a lot about kitchen, and Americans do not seem to like sharing bathrooms.
 
@@ -172,4 +178,6 @@ Interestingly, **kitchen quality** and **total number of bathroom** are also str
 
 Lastly, **neighborhood** is also key. As the old saying goes, when it comes to housing, it's all 'location, location, 'location'. Neighborhoods such as Northridge Heights and Stone Brook positively impact Sale Price.
 
-Flippers can consider increasing total area by building another storey, if the corresponding increase in Sale Price can offset the cost. Other actionable areas include renovation to improve overall quality, kitchen quality and increase the number of bathroom. Unfortunately, it is impossible to change the neighborhood, so the flippers should first ensure that the house they purchase to flip is in a good location like Northridge Heights and Stone Brook.
+House flippers can consider increasing total area by building another storey, if the corresponding increase in Sale Price can offset the cost. 
+
+Other actionable areas include renovation to improve overall quality, kitchen quality and increase the number of bathroom. Unfortunately, it is impossible to change the neighborhood, so the flippers should first ensure that the house they purchase to flip is in a good location like Northridge Heights and Stone Brook.
