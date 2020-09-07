@@ -25,4 +25,17 @@ This project covers applications of:
 2. Basic python programming
 3. Exploratory data analysis
 4. Data visualisation
-5. Modelling using regression (including regularization) and model evaluation
+5. Regression (including regularization) and model evaluation
+
+
+### Project 3: Reddit Text Classifier 
+------
+
+Using data from Reddit, the aim of this project is to build a text classifier model for a mental health organisation's patient support unit to classify incoming text from social media messagers/ chatbot for depression and bipolar disorder, so that patients will be channelled for appropriate care and treatment.
+
+This project covers applications of:
+1. API and webscrapping
+2. Exploratory data analysis (including Word Cloud)
+3. Natural Langugage Processing
+4. Classification (Logistic Regression, Multinomial NB, Support Vector Machine) and model evaluation
+5. Pipeline and GridSearch
