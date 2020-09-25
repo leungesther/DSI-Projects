@@ -39,3 +39,17 @@ This project covers applications of:
 3. Natural Langugage Processing
 4. Classification (Logistic Regression, Multinomial NB, Support Vector Machine) and model evaluation
 5. Pipeline and GridSearch
+
+
+### Project 4: West Nile Virus Prediction
+------
+
+In this project, my teammates and I use the mosquito trap data, weather data and spray data to predict the presence of West Nile Virus in Chicago, United States.
+
+This project covers applications of:
+1. Data wrangling
+2. Exploratory data analysis
+3. Feature engineering
+4. Handling of imbalanced dataset using SMOTE oversampling
+5. Classification & Emsemble techniques (Logistic Regression, Random Forest, AdaBoost, GradientBoost and XGBoost)
+6. Pipeline & GridSearch for hyperparameter tuning
