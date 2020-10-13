@@ -53,3 +53,16 @@ This project covers applications of:
 4. Handling of imbalanced dataset using SMOTE oversampling
 5. Classification & Emsemble techniques (Logistic Regression, Random Forest, AdaBoost, GradientBoost and XGBoost)
 6. Pipeline & GridSearch for hyperparameter tuning
+
+
+### Capstone Project: Sentiment Analylsis for NTUC Fairprice Mobile App
+------
+
+Using NTUC Fairprice mobile app reviews scraped from Google Play Store and Apple AppStore, this project aims to build a sentiment classifier to identify negative reviews for prompt follow up and service recovery. Topic modelling is also done on the negative reviews to identify customer pain points.
+
+This project covers applications of:
+1. API and webscrapping
+2. Exploratory data analysis
+3. Natural Langugage Processing
+4. Classification (Classical Machine Learning & Deep Learning)
+5. Topic Modelling

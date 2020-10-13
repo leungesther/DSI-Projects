@@ -14,12 +14,7 @@
 
 In **first half of 2020**, with the spread of **Covid-19** and the implementation of **circuit breaker and social distancing measures** in Singapore, [**supermarket sales was brisk**](https://www.dbs.com.sg/sme/aics/templatedata/article/generic/data/en/GR/042020/200406_insights_singapore_consumer.xml) according to DBS Group Research. **Online grocery sales** has grown tremendously over the past decade, and DBS estimated the size of online grocery market at S$600 million in January 2020 before Covid-19. 
 
-<img src="./images/online grocery market.png" width="350" align="left">
-
 With Covid-19, the **proportion of online sales in the Supermarket category** has increased according to Singstats, from **7.5%** in [March 2020](https://www.singstat.gov.sg/-/media/files/news/mrsmar2020.pdf) to **11.7%** in [August 2020](https://www.singstat.gov.sg/-/media/files/news/mrsaug2020.pdf). NTUC Fairprice capitalized on the growth in online grocery market by [launching its e-commerce mobile applications in the year 2015](https://www.todayonline.com/shop-go-ntuc-fairprice) as part of its digital strategy. With panick buying and the sudden surge in demand at the start of Covid-19, [the NTUC Fairprice app topped as the number one app on Apple AppStore](https://mustsharenews.com/ntuc-fairprice-app-store/) on 8 Feb 2020 following capacity issues with the NTUC online shopping website.
-
-<img src="./images/ntuc_number1.png" width="250" align="left">
-
 
 Even with subsequent [increase in online capacity](https://www.channelnewsasia.com/news/singapore/ntuc-fairprice-online-service-delivery-fee-covid-19-12647142), it is clear that NTUC Fairprice needs to **ride the growth the online grocery market** by **identifying negative reviews or sentiments** on the NTUC Fairprice mobile app for **prompt follow up action**, and **improve overall mobile app customer experience** by identifying customers' **pain points**, and the **values sought** from the mobile app usage.
 
@@ -46,9 +41,6 @@ Based the **topic modelling using LDA**, the 3 main customer pain points identif
 3. **Payment/ Credit card issues**
 
 Based on these pain points on the user journey, it can be seen that **poor customer experience leans towards the later part of the user journey**, leading to **abandon carts** and **loss of revenue**.
-
-#### User Journey Mapping
-<img src="./images/user journey.png" width="800" align="left">
 
 The NTUC Fairprice mobile app team can look into ways to improve customer experience, by prioritising 2 aspects:
 
@@ -100,7 +92,7 @@ Positive score was selected as feature for modelling in addition to the text rev
 Text classification models were built to classify negative reviews vs. positive reviews based on the text reviews scraped. The models' performance summarized in the following table:
 
 | Model | Train Accuracy | Test Accuracy | Recall | ROC AUC Score |
-|:--- |:---:|:---:|:---:|:---:|:---:|:---:|
+|:--- |:---:|:---:|:---:|:---:|
 | Voting Classifier (Logistic Regression & Multinomial NB with TfidfVectorizer)| 0.92 | 0.88 | 0.89 | 0.94| 
 | MultinomialNB with TfidfVectorizer (with Vader Positive Score as features) | 0.91 | 0.88 | 0.88 | 0.94 |
 | LSTM Model | 0.90 | 0.88 | 0.85 | 0.94 |
