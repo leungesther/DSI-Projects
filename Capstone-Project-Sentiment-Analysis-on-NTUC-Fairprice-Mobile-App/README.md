@@ -33,7 +33,7 @@ Based on evaluation of the variou classification models built, the production mo
 
 Given its **relatively high accuracy (0.88) and recall (0.89) on the test data**, we can conclude that the model generalises well on unseen data, and can be used to **identify negative reviews** for NTUC Fairprice mobile app, which can **allow for prompt follow up and service recovery**.
 
-The web app of the classification model is deployed on [Heroku](https://sentiment-classification-ntuc.herokuapp.com/)
+The web app of the classification model is deployed on [Heroku](https://sentiment-classification-ntuc.herokuapp.com/).
 
 
 ### 2. Topic modelling to identify customer pain points for improvement opportunities

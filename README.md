@@ -66,3 +66,4 @@ This project covers applications of:
 3. Natural Langugage Processing
 4. Classification (Classical Machine Learning & Deep Learning)
 5. Topic Modelling
+6. Web App Deployment using Streamlit and Heroku
