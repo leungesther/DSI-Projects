@@ -29,6 +29,7 @@ As such, in this project, I aim to:
 # Executive Summary
 
 ### 1. Text classification to identify negative reviews for prompt follow up
+
 Based on evaluation of the variou classification models built, the production model is a **Voting Classifier** consisting of an ensemble of a **Multinomial NB model and Logistic Regression model**, with features extracted using the **TfidfVectorizer**. 
 
 Given its **relatively high accuracy (0.88) and recall (0.89) on the test data**, we can conclude that the model generalises well on unseen data, and can be used to **identify negative reviews** for NTUC Fairprice mobile app, which can **allow for prompt follow up and service recovery**.
@@ -37,6 +38,7 @@ The web app of the classification model is deployed on [Heroku](https://sentimen
 
 
 ### 2. Topic modelling to identify customer pain points for improvement opportunities
+
 Based the **topic modelling using LDA**, the 3 main customer pain points identified are:
 
 1. **Bugs/ Laggy interface**
@@ -69,7 +71,8 @@ At the end of the data collection and merging from the 2 platforms, the dataset 
 | user | Username |
 | source | Source of review (Google Play Store or Apple AppStore) | 
 
-#### 2. Pre-processing & Feature Engineering
+
+### 2. Pre-processing & Feature Engineering
 
 Data cleaning was done to remove records with missing text reviews.
 
@@ -90,7 +93,8 @@ In addition, the VADER Sentiment Analyzer was applied to create additional featu
 
 Positive score was selected as feature for modelling in addition to the text review itself.
 
-#### 3. Text Classification 
+
+### 3. Text Classification 
 
 Text classification models were built to classify negative reviews vs. positive reviews based on the text reviews scraped. The models' performance summarized in the following table:
 
@@ -113,9 +117,9 @@ Based on evaluation of the variou classification models built, the production mo
 Given its **relatively high accuracy (0.88) and recall (0.89) on the test data**, we can conclude that the model generalises well on unseen data, and can be used to **identify negative reviews** for NTUC Fairprice mobile app, which can **allow for prompt follow up and service recovery**.
 
 
-#### 4. Topic Modelling
+### 4. Topic Modelling
 
-Latent Dirichlet Allocation (LDA) model was built for topic modelling of the negatives reviews, to help pinpoint the customers' pain points.
+**Latent Dirichlet Allocation (LDA) model** was built for topic modelling of the negatives reviews, to help pinpoint the customers' pain points.
 
 Based on the model, 3 key customer painpoints emerged:
 
