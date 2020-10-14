@@ -21,43 +21,22 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.25, strati
 
 # Logistic Regression with TfidfVectorizer
 pipe_lr_tvec = Pipeline([
-    ('tvec', TfidfVectorizer()),
-    ('lr', LogisticRegression(solver='lbfgs'))
+    ('tvec', TfidfVectorizer(max_features = 2000, min_df=2, max_df=0.9, ngram_range=(1,1))),
+    ('lr', LogisticRegression(solver='lbfgs', C=2.0, max_iter=100))
 ])
 
-pipe_lr_tvec_params = {
-    'tvec__max_features': [2000],   # tried [2000, 3000, 4000, 5000]
-    'tvec__min_df': [2],            # tried [1, 2]
-    'tvec__max_df': [0.9],          # tried [0.9, 0.95, 1.0]
-    'tvec__ngram_range': [(1, 1)],  # tried [(1, 1), (1,2), (2,2)]
-    'lr__C': [2.0],                 # tried [1.0, 2.0]
-    'lr__max_iter': [100]           # tried [100, 200]
-}
-
-gs_lr_tvec = GridSearchCV(pipe_lr_tvec, param_grid = pipe_lr_tvec_params, cv=5)
-
-gs_lr_tvec.fit(X_train, y_train)
+lr_tvec = pipe_lr_tvec.fit(X_train, y_train)
 
 # MultinomialNB with TfidfVectorizer
 pipe_nb_tvec = Pipeline([
-    ('tvec', TfidfVectorizer()),
-    ('nb', MultinomialNB())
+    ('tvec', TfidfVectorizer(max_features=3000, min_df=1, max_df=0.9, ngram_range=(1,2))),
+    ('nb', MultinomialNB(alpha=1.0))
 ])
 
-pipe_nb_tvec_params = {
-    'tvec__max_features': [3000],  # tried [2000, 3000, 4000, 5000]
-    'tvec__min_df': [1],           # tried [1, 2]
-    'tvec__max_df': [0.9],         # tried [0.9, 0.95, 1.0]
-    'tvec__ngram_range': [(1,2)],  # tried [(1, 1), (1,2), (2,2)]
-    'nb__alpha': [1.0]             # tried [1.0, 1e-1, 1e-2]
-}
-
-gs_nb_tvec = GridSearchCV(pipe_nb_tvec, param_grid = pipe_nb_tvec_params, cv=5)
-
-gs_nb_tvec.fit(X_train, y_train)
+nb_tvec = pipe_nb_tvec.fit(X_train, y_train)
 
 # Voting Classifier
-votingcl = VotingClassifier(estimators=[('lr_tvec', gs_lr_tvec), ('nb_tvec', gs_nb_tvec)],
+votingcl = VotingClassifier(estimators=[('lr_tvec', lr_tvec), ('nb_tvec', nb_tvec)],
                            voting='soft',    # soft voting predicts the class based on argmax of the sums of the predicted probabilities
                            weights = [1,2])  # higher weight for MultinomialNB as it has higher ROC AUC and precision
                                              # while accuracy and recall are same as logistic regression
